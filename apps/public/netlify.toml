@@ -1,0 +1,12 @@
+[build]
+  base = "../.."
+  command = "npm run export:web"
+  publish = "apps/public/dist"
+[[redirects]]
+  from = "/post/*"
+  to = "/post/[id].html"
+  status = 200
+[[redirects]]
+  from = "/person/*"
+  to = "/person/[handle].html"
+  status = 200

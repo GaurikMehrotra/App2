@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": { "strict": true },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "../../packages/core/src/**/*.ts",
+    "../../packages/core/src/**/*.tsx"
+  ],
+  "exclude": ["node_modules", "dist", "dist-native"]
+}

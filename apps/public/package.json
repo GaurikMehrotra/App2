@@ -1,0 +1,37 @@
+{
+  "name": "@app2/public",
+  "version": "0.1.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "web": "expo start --web",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "export": "expo export --platform web"
+  },
+  "dependencies": {
+    "@app2/core": "*",
+    "expo": "~55.0.0",
+    "expo-audio": "~55.0.18",
+    "expo-constants": "~55.0.0",
+    "expo-dev-client": "~55.0.0",
+    "expo-image-manipulator": "~55.0.21",
+    "expo-image-picker": "~55.0.24",
+    "expo-linking": "~55.0.0",
+    "expo-notifications": "~55.0.27",
+    "expo-router": "~55.0.0",
+    "expo-secure-store": "~55.0.0",
+    "expo-status-bar": "~55.0.0",
+    "expo-video": "~55.0.21",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-native": "0.83.2",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.23.0",
+    "react-native-web": "^0.21.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "supabase": "^2.120.0"
+  }
+}
